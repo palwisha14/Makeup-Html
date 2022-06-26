@@ -1,0 +1,89 @@
+.map{
+    height: 90vh;
+    width: 100%;
+    /* border: 2px solid red; */
+    margin-top: 4%;
+}
+.Contact{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem 0;
+    /* border: 2px solid red; */
+    margin: 2rem 0;
+}
+.detail{
+    height: auto;
+    width: 500px;
+    padding: .5rem;
+    /* border: 2px solid red; */
+
+}
+.detail>h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    line-height: 48px;
+    color: #556a89;
+}
+.detail>p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 0px;
+    padding: .8rem 0;
+    color: #556a89;
+
+}
+.foam{
+    height: auto;    
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 0 1rem;
+}
+.foam>h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 28px;
+    text-transform: uppercase;
+    padding-right: .5rem;
+    color: #556a89;
+
+}
+input{
+    padding: 1rem 0;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #556a89;
+    width: 100%;
+    margin-top: 2%;
+}
+::placeholder{
+    color: #556a89;
+    font-size: 17px;
+    font-weight: 500;
+}
+.but1{
+    border: 2px solid;
+    padding:.5rem 2rem;
+    border-radius: 10px;
+    margin-left: 0%;
+    font-size: 16px;
+    color: #556a89;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    cursor: pointer;
+    transition-duration: 1s;
+    outline: none;
+    margin-top: 5%;
+}
+.but1:hover{
+    background-color: #556a89;
+    color: white;
+} 
